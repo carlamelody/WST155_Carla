@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Movie Database</h1>
+        <form>
+            <input type="text" id="movieTitle" placeholder="Title" required>
+            <textarea id="movieDescription" placeholder="Description" required></textarea>
+            <input type="text" id="movieYear" placeholder="Year" required>
+            <input type="text" id="imageUrl" placeholder="Image URL" required>
+            <input type="text" id="movieRating" placeholder="Rating" required>
+            <input type="text" id="movieGenre" placeholder="Genre" required>
+            <input type="text" id="movieBoxOffice" placeholder="Box Office (in millions)" required>
+            <input type="text" id="movieCast" placeholder="Cast (comma separated)" required>
+            <input type="submit" value="Add Movie">
+        </form>
+        <h2>Movie List</h2>
+        <div id="movieList"></div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

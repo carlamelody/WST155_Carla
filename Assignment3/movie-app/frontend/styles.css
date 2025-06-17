@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 100%;
+    width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    padding: 20px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+#movieList {
+    background-color: #d4ddf0;
+    color: #333;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.movie-item {
+    margin: 15px 0;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-item h3 {
+    margin: 0;
+    color: #fff;
+}
+
+.movie-item img {
+    max-width: 100%;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+.movie-item p {
+    text-align: left;
+    margin: 5px 0;
+}
+
+.movie-item .movie-details {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.movie-item button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.movie-item button:hover {
+    background-color: darkred;
+}
